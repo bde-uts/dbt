@@ -1,0 +1,11 @@
+sources:
+  - name: raw
+    description: Raw data from CSV files
+    database: postgres
+    schema: raw
+
+    tables:
+      - name: brand
+      - name: category
+      - name: subcategory
+      - name: facts
