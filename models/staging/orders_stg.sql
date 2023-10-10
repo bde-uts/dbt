@@ -8,7 +8,7 @@ with
 
 source  as (
 
-    select * from "postgres"."raw"."facts"
+    select * from {{source('raw','facts')}}
 
 ),
 
